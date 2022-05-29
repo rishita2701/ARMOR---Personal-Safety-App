@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9edf2"
+    tools:context="com.personalsafety.armor.IsSafe">
+    <!--        android:visibility="invisible"-->
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="118dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/danger" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:id="@+id/title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#560ceb"
+            android:textSize="55sp"
+            android:text="  "
+            android:textStyle="bold"
+            android:id="@+id/score"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="45sp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"
+            android:text="  "
+            android:gravity="center"
+            android:id="@+id/safe"/>
+    </LinearLayout>
+</FrameLayout>
